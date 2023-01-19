@@ -1,3 +1,22 @@
+* {font-family: 'Unbounded', cursive;
+}
+
+body {
+    background-color: rgb(206, 230, 206);
+}
+
 h1 {
     color:rgb(226,110,235);
+}
+
+nav {text-align: center;}
+
+nav a {
+    color: rgb(0, 0, 0);
+    margin: 2%;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
 }
