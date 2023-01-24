@@ -4,13 +4,18 @@
 body {
     background-color: rgb(255, 255, 255);
     margin: 0;
+}
 
+article {
+    margin: 0;
+    padding-left: 30px;
 }
 
 h1 {
     text-align: center;
     color:rgb(0 ,0 ,0);
     margin: 0;
+    font-size: 5em;
 }
 
 nav {text-align: center;}
@@ -21,9 +26,26 @@ nav {text-align: center;}
     nav li {
         list-style: none;
         display: inline;
+    
     }
 
 header {
     background-color: rgb(227, 158, 215);
     margin: 0;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+hr {
+    margin: 0;
+    color: black;
+}
+img {
+    width: 25%;
+    margin: 0;
+    padding-left: 0;
+}
+footer {
+    margin: 0;
+    padding-left: 30px;
 }
