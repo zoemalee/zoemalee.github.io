@@ -56,6 +56,5 @@ h3 {
     line-height: 2em;
 }
 p.capitalize {
-    color: red;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
