@@ -1,5 +1,6 @@
-* {font-family: 'Unbounded', cursive;
+{font-family: 'Unbounded', cursive;
 }
+
 
 body {
     background-color: rgb(255, 255, 255);
@@ -52,5 +53,9 @@ footer {
     padding-left: 30px;
 }
 h3 {
-    padding-bottom: 10px;
+    line-height: 2em;
+}
+p.capitalize {
+    color: red;
+    text-transform: capitalize;
 }
