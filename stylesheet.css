@@ -10,6 +10,7 @@ body {
 article {
     margin: 0;
     padding-left: 30px;
+
 }
 
 h1 {
@@ -36,6 +37,10 @@ header {
     padding-left: 30px;
     padding-bottom: 10px;
     text-align: center;
+    background-image: url(images/foxface.png);
+    background-repeat: repeat-x;
+    background-size: 10%;
+    /* background-blend-mode: multiply; */
 }
 hr {
     margin: 0;
@@ -45,16 +50,37 @@ hr {
 }
 img {
     width: 25%;
+    height: auto;
     margin-left: -30px;
 
 }
 footer {
     margin: 0;
     padding-left: 30px;
+    text-align: center;
 }
 h3 {
     line-height: 2em;
 }
 p.capitalize {
     text-transform: uppercase;
+}
+a:link {
+    color:rgb(0, 0, 0);
+    padding: 5px;
+}
+
+a:visited {
+    color: rgb(116, 95, 136);
+}
+
+a:hover {
+    color: rgb(231, 238, 207);
+}
+a:active {
+    color: rgb(236, 64, 113);
+}
+h2.dottedunderline {
+    text-decoration: underline dotted;
+    text-decoration-thickness: 5px;
 }
