@@ -17,9 +17,33 @@
     text-align: center;
     background-image: url(images/foxface.png);
     background-repeat: repeat-x;
-    background-size: 11%;
+    background-size: 13%;
+
 }
 
+#nav {
+    width: 100%;
+    margin: auto;
+
+}
+
+#article {
+    width: 100%;
+    margin: auto;
+}
+
+#footer {
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#paragraph {
+    width: 50%;
+    margin: auto;
+}
 
 body {
     background-color: rgb(255, 255, 255);
@@ -41,6 +65,11 @@ h1 {
     font-size: 5em;
 }
 
+h3 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 nav {text-align: center;}
     nav a {
         color: rgb(0, 0, 0);
@@ -49,11 +78,10 @@ nav {text-align: center;}
     nav li {
         list-style: none;
         display: inline;
-    
     }
 
-header {
-/*    background-color: rgb(227, 158, 215);
+ /*header {
+    background-color: rgb(227, 158, 215);
     margin: 0;
     padding-left: 30px;
     padding-bottom: 10px;
@@ -62,9 +90,9 @@ header {
     background-image: url(images/foxface.png);
     background-repeat: repeat-x;
     background-size: 10%;
-*/
+
     /* background-blend-mode: multiply; */
-}
+
 hr {
     margin: 0;
     background-color: rgb(0, 0, 0);
@@ -77,12 +105,7 @@ img {
     margin-left: -30px;
 
 }
-footer {
-/*  margin: 0;
-    padding-left: 30px; 
-*/
-    text-align: center;
-}
+    
 h3 {
     line-height: 2em;
 }
