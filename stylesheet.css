@@ -3,6 +3,11 @@
 *{font-family: 'Unbounded', cursive;
 }
 
+.col-49 {
+    width: 49%;
+    float: left;
+}
+
 #wrapper {
     width: 100%;
     margin:auto;
@@ -27,12 +32,13 @@
 
 }
 
-#article {
-    width: 100%;
+#paragraph {
+    width: 80%;
     margin: auto;
 }
 
 #footer {
+    clear: both;
     width: 100%;
     margin: auto;
     padding-top: 2%;
@@ -94,6 +100,7 @@ nav {text-align: center;}
     /* background-blend-mode: multiply; */
 
 hr {
+    clear: both;
     margin: 0;
     background-color: rgb(0, 0, 0);
     height: 2px;
