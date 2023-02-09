@@ -1,10 +1,30 @@
+*{margin: 0; padding: 0;}
+
 *{font-family: 'Unbounded', cursive;
+}
+
+#wrapper {
+    width: 100%;
+    margin:auto;
+}
+
+#header {
+    width: 100%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(227, 158, 215);
+    text-align: center;
+    background-image: url(images/foxface.png);
+    background-repeat: repeat-x;
+    background-size: 11%;
 }
 
 
 body {
     background-color: rgb(255, 255, 255);
-    margin: 0;
+/*    margin: 0;
+*/
 }
 
 article {
@@ -16,7 +36,8 @@ article {
 h1 {
     text-align: center;
     color:rgb(0, 0, 0);
-    margin: 0;
+ /*   margin: 0;
+ */
     font-size: 5em;
 }
 
@@ -32,14 +53,16 @@ nav {text-align: center;}
     }
 
 header {
-    background-color: rgb(227, 158, 215);
+/*    background-color: rgb(227, 158, 215);
     margin: 0;
     padding-left: 30px;
     padding-bottom: 10px;
+
     text-align: center;
     background-image: url(images/foxface.png);
     background-repeat: repeat-x;
     background-size: 10%;
+*/
     /* background-blend-mode: multiply; */
 }
 hr {
@@ -55,8 +78,9 @@ img {
 
 }
 footer {
-    margin: 0;
-    padding-left: 30px;
+/*  margin: 0;
+    padding-left: 30px; 
+*/
     text-align: center;
 }
 h3 {
