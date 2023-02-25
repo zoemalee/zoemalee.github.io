@@ -2,6 +2,23 @@
 *{font-family: 'Unbounded', cursive;
 }
 
+/* utilities 
+__________________*/
+
+.rowpadding {
+    padding-top: 4%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* elements 
+___________________*/
+
+header {
+    text-align: center;
+}
 nav {
     text-align: center;
     padding-top: 2%;
@@ -14,4 +31,40 @@ nav li {
 
 nav a {
     margin: 2%;
+    color: rgb(234, 141, 187);
 }
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h6 {
+    line-height: .5em;
+    color: rgb(168, 168, 168);
+}
+
+hr {
+    clear: both;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    border: 0;
+}
+
+
+body {
+    background-color: white;
+}
+
+
+@media only screen and (max-width 750px) {
+    .flexbox {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
