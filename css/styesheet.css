@@ -1,0 +1,17 @@
+/* exercise 5*/
+*{font-family: 'Unbounded', cursive;
+}
+
+nav {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+nav li {
+    list-style: none;
+    display: inline;
+}
+
+nav a {
+    margin: 2%;
+}
