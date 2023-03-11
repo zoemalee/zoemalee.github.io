@@ -1,23 +1,35 @@
 
-
-* {
-    font-family: 'Jost', sans-serif;}
 /* 
+* {font-family: 'Jost', sans-serif;}
+
  * {
     font-family: 'Oxanium', cursive;} */
+
+    
 
 /*utilities
 ____________________________*/
 
+.container {
+    font-family: 'Roboto', sans-serif;
+    position: static;
+    width: 100%;
+}
 .jostmedium{
     font-weight: 500;
 }
 
-.oxanium{
-    font-family: 'Oxanium', cursive;
+.rubik{
+    font-family: 'Rubik Mono One', sans-serif;
 }
-
 /*elements
 ____________________________*/
 
+body {
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+}
 
+img {
+    column-width: 200%;
+}
