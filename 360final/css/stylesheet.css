@@ -21,8 +21,15 @@ ____________________________*/
 
 .title {
     font-family: 'Jost', sans-serif;
-    font-size: 400%;
+    font-size: 4em;
     font-weight: medium;
+}
+.tracklarge {
+    letter-spacing: .2em;
+}
+
+.tracksmall {
+    letter-spacing: .1em;
 }
 
 .bkgpink {
@@ -46,16 +53,23 @@ ____________________________*/
     padding-bottom: 300px;
 }
 
+.textmargin{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+
 /* IDs */
 
 #signal {
     font-family: 'Oxanium', cursive;
-    font-size: 800%;
+    font-size: 12em;
     font-weight: 800;
+    line-height: .6em;
 }
 
 #landing {
     text-align: center;
+    padding-top: 100px;
 }
 
 
