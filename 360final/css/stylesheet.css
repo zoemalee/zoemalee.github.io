@@ -1,0 +1,23 @@
+
+
+* {
+    font-family: 'Jost', sans-serif;}
+/* 
+ * {
+    font-family: 'Oxanium', cursive;} */
+
+/*utilities
+____________________________*/
+
+.jostmedium{
+    font-weight: 500;
+}
+
+.oxanium{
+    font-family: 'Oxanium', cursive;
+}
+
+/*elements
+____________________________*/
+
+
