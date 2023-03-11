@@ -2,16 +2,16 @@
 /* 
 * {font-family: 'Jost', sans-serif;}
 
- * {
+* {
     font-family: 'Oxanium', cursive;} */
 
 
     /* font classes */
-    .quote{
+    .oxanium{
         font-family: 'Oxanium', cursive;    
     }
     
-    .paragraph{
+    .jost{
         font-family: 'Jost', sans-serif;
     }
     
@@ -19,16 +19,25 @@
 /*utilities
 ____________________________*/
 
-.container {
+.title {
     font-family: 'Jost', sans-serif;
-}
-.jostmedium{
-    font-weight: 500;
+    font-size: 400%;
+    font-weight: medium;
 }
 
-.Rubik{
-    font-family: 'Rubik Mono One', sans-serif;
+
+/* IDs */
+
+#signal {
+    font-family: 'Oxanium', cursive;
+    font-size: 600%;
+    font-weight: 800;
 }
+
+#landing {
+    text-align: center;
+}
+
 /*elements
 ____________________________*/
 
