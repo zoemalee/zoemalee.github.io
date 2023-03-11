@@ -33,6 +33,7 @@ ____________________________*/
 
 .textoverlap {
     position: relative;
+    margin-top: -300px;
 }
 
 .topleft {
