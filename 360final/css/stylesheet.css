@@ -33,13 +33,17 @@ ____________________________*/
 
 .textoverlap {
     position: relative;
-    margin-top: -300px;
+    margin-top: -600px;
 }
 
 .topleft {
     position: absolute;
     top: 30%;
     left: 15 px;
+}
+
+.bottompad{
+    padding-bottom: 300px;
 }
 
 /* IDs */
@@ -54,12 +58,8 @@ ____________________________*/
     text-align: center;
 }
 
-#bkgpinkhalf {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 120, 142);
-    background-image: linear-gradient(to bottom, transparent);
-}
+
+
 /*elements
 ____________________________*/
 
