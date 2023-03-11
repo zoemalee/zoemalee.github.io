@@ -5,21 +5,28 @@
  * {
     font-family: 'Oxanium', cursive;} */
 
+
+    /* font classes */
+    .quote{
+        font-family: 'Oxanium', cursive;    
+    }
+    
+    .paragraph{
+        font-family: 'Jost', sans-serif;
+    }
     
 
 /*utilities
 ____________________________*/
 
 .container {
-    font-family: 'Roboto', sans-serif;
-    position: static;
-    width: 100%;
+    font-family: 'Jost', sans-serif;
 }
 .jostmedium{
     font-weight: 500;
 }
 
-.rubik{
+.Rubik{
     font-family: 'Rubik Mono One', sans-serif;
 }
 /*elements
