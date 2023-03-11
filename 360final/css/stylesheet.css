@@ -25,12 +25,18 @@ ____________________________*/
     font-weight: medium;
 }
 
+.bkgpink {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 120, 142);
+}
+
 
 /* IDs */
 
 #signal {
     font-family: 'Oxanium', cursive;
-    font-size: 600%;
+    font-size: 800%;
     font-weight: 800;
 }
 
@@ -38,6 +44,11 @@ ____________________________*/
     text-align: center;
 }
 
+#bkgpinkhalf {
+    width: 100%;
+    height: 50%;
+    background: rgb(255, 120, 142);
+}
 /*elements
 ____________________________*/
 
