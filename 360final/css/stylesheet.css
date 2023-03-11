@@ -79,6 +79,9 @@ ____________________________*/
 
 body {
     background-color: rgb(36, 36, 36);
+    background-image: url(../images/wheatpastedark-01.svg);
+    background-size: 100vw;
+    background-repeat: repeat;
     color: aliceblue;
 }
 
