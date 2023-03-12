@@ -17,7 +17,7 @@
     
     .quotes {
         font-family: 'Signika Negative', sans-serif;
-        font-size: 3em;
+        font-size: 10em;
         font-weight: 700;
     }
     
@@ -61,13 +61,41 @@ ____________________________*/
     margin-right: 100px !important;
 }
 
-.question {
+.positiondown {
+    position: relative;
+    top: 100px;
+}
+
+.positionup{
+    position: relative;
+    top: -150px;
+}
+
+.textpad {
     padding-left: 100px;
     padding-right: 100px;
 }
 
+.centertext {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
 .swoontag {
     text-align: right;
+}
+
+.boxvert {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+
+.boxhor {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
 }
 
 /* type treatment
