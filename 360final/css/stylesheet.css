@@ -101,6 +101,10 @@ img {
     column-width: 200%;
 }
 
+h1 {
+    font-size: 6em;
+}
+
 h2 {
     font-size: 4em;
 }
