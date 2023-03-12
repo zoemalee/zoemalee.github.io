@@ -15,6 +15,12 @@
         font-family: 'Jost', sans-serif;
     }
     
+    .quotes {
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 3em;
+        font-weight: 700;
+    }
+    
 
 /*utilities
 ____________________________*/
@@ -55,8 +61,17 @@ ____________________________*/
     margin-right: 100px !important;
 }
 
+.question {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
-/* type treatment */
+.swoontag {
+    text-align: right;
+}
+
+/* type treatment
+________________________________ */
 
 .tracklarge {
     letter-spacing: .2em;
@@ -86,7 +101,13 @@ ____________________________*/
     line-height: .6em;
 }
 
-/* IDs */
+.bluetxt {
+    color: rgb(102, 211, 217);
+    font-weight: 800;
+}
+
+/* IDs 
+________________________________*/
 
 #signal {
     font-family: 'Oxanium', cursive;
@@ -99,7 +120,6 @@ ____________________________*/
     text-align: center;
     padding-top: 100px;
 }
-
 
 
 /*elements
@@ -127,4 +147,8 @@ h2 {
 
 h4 {
     font-size: 3em;
+}
+
+h3 {
+    font-size: 2.5em;
 }
