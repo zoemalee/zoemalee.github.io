@@ -24,13 +24,6 @@ ____________________________*/
     font-size: 4em;
     font-weight: medium;
 }
-.tracklarge {
-    letter-spacing: .2em;
-}
-
-.tracksmall {
-    letter-spacing: .1em;
-}
 
 .bkgpink {
     width: 100%;
@@ -49,13 +42,28 @@ ____________________________*/
     left: 15 px;
 }
 
-.bottompad{
+.bottompad300{
     padding-bottom: 300px;
+}
+
+.bottompad100{
+    padding-bottom: 100px;
 }
 
 .textmargin{
     margin-left: 100px !important;
     margin-right: 100px !important;
+}
+
+
+/* type treatment */
+
+.tracklarge {
+    letter-spacing: .2em;
+}
+
+.tracksmall {
+    letter-spacing: .1em;
 }
 
 .uppercase {
@@ -68,6 +76,14 @@ ____________________________*/
 
 .pinktext {
     color: rgb(255, 120, 142);
+}
+
+.orangetxt{
+    color: rgb(238,131,54);
+}
+
+.leading{
+    line-height: .6em;
 }
 
 /* IDs */
