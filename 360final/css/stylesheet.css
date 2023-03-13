@@ -25,6 +25,11 @@
 /*utilities
 ____________________________*/
 
+.clear {
+    clear: both;
+}
+
+
 .title {
     font-family: 'Jost', sans-serif;
     font-size: 4em;
@@ -42,10 +47,17 @@ ____________________________*/
     margin-top: -600px;
 }
 
+
 .topleft {
     position: absolute;
     top: 30%;
     left: 15 px;
+}
+
+.topright{
+    position: absolute;
+    top: 30px;
+    right: 15px;
 }
 
 .bottompad300{
@@ -86,7 +98,7 @@ ____________________________*/
     text-align: right;
 }
 
-.boxvert {
+.boxquestion {
     display: flex;
     flex-direction: column;
     padding-bottom: 5%;
@@ -96,6 +108,15 @@ ____________________________*/
     display: flex;
     flex-direction: row;
     padding-right: 5%;
+}
+
+.postionrel {
+    position: relative;
+}
+
+.pspacing {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* type treatment
@@ -148,7 +169,10 @@ ________________________________*/
     text-align: center;
     padding-top: 100px;
 }
-
+#overlaphead {
+    position: relative;
+    margin-left: -600px;
+}
 
 /*elements
 ____________________________*/
