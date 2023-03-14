@@ -21,6 +21,11 @@
         font-weight: 700;
     }
     
+    .quotes2 {
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 2em;
+        font-weight: 700;
+    }
 
 /*utilities
 ____________________________*/
@@ -51,6 +56,12 @@ ____________________________*/
 .topleft {
     position: absolute;
     top: 30%;
+    left: 15 px;
+}
+
+.topleftfix{
+    position: absolute;
+    top: 80px;
     left: 15 px;
 }
 
@@ -91,6 +102,10 @@ ____________________________*/
 .centertext {
     padding-left: 150px;
     padding-right: 150px;
+    text-align: center;
+}
+
+.centertext{
     text-align: center;
 }
 
@@ -172,6 +187,19 @@ ________________________________*/
 #overlaphead {
     position: relative;
     margin-left: -600px;
+}
+
+#answer3overlap{
+    position: absolute;
+    top: 20%;
+    left: 15 px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#quotepos {
+    position: relative;
+    top: 30px;
 }
 
 /*elements
